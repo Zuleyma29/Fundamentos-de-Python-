@@ -12,3 +12,12 @@ Hola Zueyma, en 3 años tendras 22 años
 """
 text_complete = "Hola {}, en {} años tendras {} años"
 print(text_complete.format(name, future,age + future))
+
+Format String 
+"""
+Hola Zueyma, en 3 años tendras 22 años
+"""
+text_complete = "Hola {}, en {} años tendras {} años"
+print(text_complete.format(name, future,age + future))
+print(f"Hola{nombre}, en {future}años tendras{age + future}años")
+
